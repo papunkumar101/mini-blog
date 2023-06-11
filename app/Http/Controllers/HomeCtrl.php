@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 class HomeCtrl extends Controller
 {
+
+// index function 
  public function index()
  {
     $news = \Http::get('https://dummyjson.com/posts'); 
