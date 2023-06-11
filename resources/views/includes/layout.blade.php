@@ -1,6 +1,7 @@
-@include('includes.header')
-@include('includes.sidebar')
 
-@yield('main-section')
+@include('includes.header') 
+@include('includes.menu')
+
+@yield('main-content-section')
 
 @include('includes.footer')
