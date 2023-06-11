@@ -8,8 +8,8 @@ class HomeCtrl extends Controller
 {
  public function index()
  {
-    $news = \Http::get('https://dummyjson.com/posts');
-    // echo $news;exit;
+    $news = \Http::get('https://dummyjson.com/posts'); 
+    echo $news;exit; //this is dev 
     // dd(json_decode($news)->posts[0]->title); 
     // $one = json_decode($news);
 //    echo '<pre/>';print_r($one);exit;
