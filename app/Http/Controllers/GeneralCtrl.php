@@ -16,4 +16,15 @@ class GeneralCtrl extends Controller
 
         return $status;
     }
+
+
+    function PostDetails(Request $request){
+        $url = "https://dummyjson.com/post/".$request->id;
+        $post = \Http::get($url);
+        $post = json_decode($post);
+
+        $news = \Http::get('https://dummyjson.com/posts');
+        $news = json_decode($news);
+        return view('postDetails',compact('post','news'));
+    }
 }

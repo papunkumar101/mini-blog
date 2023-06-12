@@ -35,4 +35,5 @@ Route::group(['middleware' => 'ChangeLanguage'], function(){
 
     Route::post('/contact',[ContactCtrl::Class,'formSubmit']);
     Route::post('/change-lang',[GeneralCtrl::Class,'ChangeLanguages']);
+    Route::get('/post-details/{id}',[GeneralCtrl::Class,'PostDetails']);
 });

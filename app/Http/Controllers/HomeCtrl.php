@@ -8,7 +8,7 @@ class HomeCtrl extends Controller
 {
     function index(){
         $news = \Http::get('https://dummyjson.com/posts');
-        // dd($news);
+        $news = json_decode($news);
         return view('home',compact('news'));
     }
 }
