@@ -32,6 +32,7 @@ Route::group(['middleware' => 'ChangeLanguage'], function(){
     Route::post('/login',[UserCtrl::Class,'UserLogin']);
     Route::post('/register',[UserCtrl::Class,'UserRegister']);
     Route::get('/price',[PriceCtrl::Class,'index']);
+    Route::get('/product-list',[PriceCtrl::Class,'searchData']);
 
     Route::post('/contact',[ContactCtrl::Class,'formSubmit']);
     Route::post('/change-lang',[GeneralCtrl::Class,'ChangeLanguages']);
