@@ -59,7 +59,6 @@ $(function () {
 }); 
  
 
-
 let priceData = (skip, SEARCH_TEXT) => {
     $.ajax({
         url: '/product-list',
@@ -130,3 +129,11 @@ let makeDefaultFunction = () => {
 }
    
 
+$( document ).ready(function() {
+    $('.sorting').click(function(e){
+        // console.log(e.target.ariaLabel, e.target.ariaSort);
+        SORT_NAME = e.target.ariaLabel ? e.target.ariaLabel.split(':')[0] : '' ;
+        SORT_ORDER = e.target.ariaSort ? e.target.ariaSort == 'descending' ? 'Desc' : 'Asc' : '' ;
+        priceData();
+    });
+});
