@@ -13,7 +13,13 @@ Contact Management website using HTML, CSS, JS, Laravel(v10.10.1), PHP(8), jQuer
 
 - [Used API to fetch data](https://prnt.sc/3h-BWrIRxh7h)
 
+- Contact Form with Laravel Validation.
 
+### Upcoming work or topic to cover -
+- create docker for this project
+- create api for (/api/ - register, login, logout, profile, token refresh) using jwt
+- google login | facebook login
+- mail verify functionality
 
 ## License
 
