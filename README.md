@@ -5,11 +5,13 @@ Contact Management website using HTML, CSS, JS, Laravel(v10.10.1), PHP(8), jQuer
 
 ### Used Concept or Covered Topic
 
-- [Dynamic Localization](https://prnt.sc/0gk-8U-QSmS0) <p align="center"><a href="https://prnt.sc/0gk-8U-QSmS0" target="_blank"><img src="https://prnt.sc/0gk-8U-QSmS0" width="400" alt="Dynamic Language"></a></p>.
+- [Dynamic Localization](https://prnt.sc/0gk-8U-QSmS0) Choose your langauge from drop down menu.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- [Dynamic Paginanion](https://prnt.sc/3h-BWrIRxh7h), where you will be get the limited data from Databse. For example you have 1 million data in data base then it'll not fetch all the data from data base in first load. it'll fetch chunk wise when you click on next page: 0-10, 10-20... so on.
 
-- If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Dynamic Filteration or Dynamic Search.
+
+- [Used API to fetch data](https://prnt.sc/3h-BWrIRxh7h)
 
 
 
